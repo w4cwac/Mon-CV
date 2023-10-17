@@ -23,28 +23,37 @@ header{
     margin-right: auto;
     width: 1160px;
 }
-main{
+section{
+    width: 1160px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+div{
     background-color: #782221;
-    width: 1160px;
 }
-.flex-container{
-    display: flexbox;
-    width: 1160px;
+#info{
+    flex-basis: 386.6px;
+    height: 90px;
+    margin-top: 0px;
     background-color: #2c1d27;
-}
-#adress{
-    text-align: left;
-}
-#mail{
+    color: white;
     text-align: center;
 }
-#tel{
-    text-align: right;
+#gauche{
+    flex-basis: 25%;
+    height: auto;
+    margin-top:auto;
 }
+#droite{
+    flex-basis: 75%;
+    height: auto;
+    background-color: white;
+    margin-top:auto;
 
-
-a{
-    color: white;
 }
