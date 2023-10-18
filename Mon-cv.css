@@ -22,13 +22,13 @@ header{
     margin-left: auto;
     margin-right: auto;
     width: 1160px;/*largeur totale du header*/
+    padding-bottom: 50px;
 }
 section{
     width: 1160px;/*largeur de la section*/
     height: auto;/*hauteur de la section ici elle s'adapte au contenu*/
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
     display: flex;
     flex-direction: row;/*alignement des boxs en lignes*/
     flex-wrap:wrap;/*les boxs sont réparties sur plusieurs lignes si trop grandes*/
