@@ -37,7 +37,7 @@ section{
 div{
     background-color: #782221;
 }
-#info{
+.info{
     flex-basis: 386.6px;/*taille de la box avec l'id info*/
     height: 90px;
     margin-top: 0px;
@@ -67,4 +67,25 @@ h3{
 }
 ul{
     text-indent: 0px;
+}
+.fond-blanc{
+    border-top-style: none;
+    border-left-style: solid;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-color: #782221;
+    margin-left: 20px;
+
+}
+a{
+    color: white;
+}
+#alinea{
+    text-indent: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+.fond-rouge{
+    color: white;
 }
