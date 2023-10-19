@@ -10,8 +10,8 @@ h2{
 img{
     max-width: 100px;
     width: auto;
-    clip-path: ellipse(50% 33%);
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    clip-path: ellipse(50% 33%);/*création de la forme arrondie*/
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);/*création de l'ombre*/
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -21,30 +21,71 @@ header{
     background-color: #782221;
     margin-left: auto;
     margin-right: auto;
-    width: 1160px;
+    width: 1160px;/*largeur totale du header*/
+    padding-bottom: 50px;
 }
-main{
+section{
+    width: 1160px;/*largeur de la section*/
+    height: auto;/*hauteur de la section ici elle s'adapte au contenu*/
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: row;/*alignement des boxs en lignes*/
+    flex-wrap:wrap;/*les boxs sont réparties sur plusieurs lignes si trop grandes*/
+    justify-content: space-between;/*écartement entre les boxs en collant les extrémités*/
+}
+div{
     background-color: #782221;
-    width: 1160px;
 }
-.flex-container{
-    display: flexbox;
-    width: 1160px;
+.info{
+    flex-basis: 386.6px;/*taille de la box avec l'id info*/
+    height: 90px;
+    margin-top: 0px;
     background-color: #2c1d27;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#adress{
-    text-align: left;
+#gauche{
+    flex-basis: 25%;
+    height: auto;
+    align-self: auto;
+    text-indent: 20px;
 }
-#mail{
-    text-align: center;
-}
-#tel{
-    text-align: right;
-}
+#droite{
+    flex-basis: 75%;
+    height: auto;
+    background-color: white;
+    margin-top:auto;
+    text-indent: 40px;
 
+}
+h3{
+    background-color: #dbc2a4;
+    margin-right: 20px;
+}
+ul{
+    text-indent: 0px;
+}
+.fond-blanc{
+    border-top-style: none;
+    border-left-style: solid;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-color: #782221;
+    margin-left: 20px;
 
+}
 a{
+    color: white;
+}
+#alinea{
+    text-indent: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+.fond-rouge{
     color: white;
 }
