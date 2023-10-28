@@ -1,11 +1,25 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(./police/Raleway/Raleway-VariableFont_wght.ttf) format(truetype);
+}
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
 .center{
     margin:auto;
 }
 h1{
     text-align: center;
+    font-family: 'Lato',sans-serif;
 }
 h2{
     text-align: center;
+    font-family: 'Lato',sans-serif;
 }
 .pp{
     max-width: 100px;
@@ -64,6 +78,7 @@ div{
 h3{
     background-color: #dbc2a4;
     margin-right: 20px;
+    font-family: 'Lato', sans-serif;
 }
 ul{
     text-indent: 0px;
@@ -102,4 +117,7 @@ footer{
     width: 1160px;
     margin-left: auto;
     margin-right: auto;
+}
+h4{
+    font-family: 'Lato', sans-serif;
 }
