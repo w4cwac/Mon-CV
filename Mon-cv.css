@@ -1,13 +1,22 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(./police/Raleway/Raleway-VariableFont_wght.ttf) format(truetype);
+}
+*{
+    font-family: 'Raleway', sans-serif;
+}
 .center{
     margin:auto;
 }
 h1{
     text-align: center;
+    font-family: 'Lato',sans-serif;
 }
 h2{
     text-align: center;
+    font-family: 'Lato',sans-serif;
 }
-img{
+.pp{
     max-width: 100px;
     width: auto;
     clip-path: ellipse(50% 33%);/*création de la forme arrondie*/
@@ -16,6 +25,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    cursor: zoom-in;
 }
 header{
     background-color: #782221;
@@ -23,10 +33,16 @@ header{
     margin-right: auto;
     width: 1160px;/*largeur totale du header*/
     padding-bottom: 50px;
+    border-right-style: solid;
+    border-color: black;
+    border-right-width: 1px;
 }
 section{
     width: 1160px;/*largeur de la section*/
     height: auto;/*hauteur de la section ici elle s'adapte au contenu*/
+    border-right-style: solid;
+    border-color: black;
+    border-right-width: 1px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -58,12 +74,13 @@ div{
     height: auto;
     background-color: white;
     margin-top:auto;
-    text-indent: 40px;
+    text-indent: 20px;
 
 }
 h3{
     background-color: #dbc2a4;
     margin-right: 20px;
+    font-family: 'Lato', sans-serif;
 }
 ul{
     text-indent: 0px;
@@ -79,6 +96,8 @@ ul{
 }
 a{
     color: white;
+    outline: none;
+    text-decoration: none;
 }
 #alinea{
     text-indent: 40px;
@@ -88,4 +107,42 @@ a{
 }
 .fond-rouge{
     color: white;
+}
+.reseaux{
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    margin: 3px;
+    color: #dbc2a4;
+
+}
+footer{
+    text-align: center;
+    background-color: #782221;
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    border-right-style: solid;
+    border-color: black;
+    border-right-width: 1px;
+}
+h4{
+    font-family: 'Lato', sans-serif;
+}
+#droite li:hover {
+    border-bottom-style: none;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: solid;
+    border-color: #2c1d27;
+    margin-right: 600px;
+}
+li{
+    list-style: inside;
+}
+.reseaux:hover{
+    opacity: 0.33;
+}
+a:hover{
+    text-decoration: underline;
 }
